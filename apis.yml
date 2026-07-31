@@ -1,7 +1,29 @@
 aid: openet
-name: openet
-description: openet is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openet.png
+name: Openet
+description: >-
+  Openet was an Irish telecommunications software company (headquartered in
+  Dublin) that built real-time business support systems (BSS) for mobile network
+  operators, including online charging systems, real-time policy and charging
+  control, digital business platforms, and data management for 4G/5G monetization.
+  Openet was acquired by Amdocs in 2020 and its brand and products were absorbed
+  into the Amdocs monetization portfolio; the openet.com domain now redirects to
+  the Amdocs monetization product pages. There is no independent Openet developer
+  portal, public API, or first-party SDK surface remaining. This profile was
+  surfaced as a portfolio-graph lead from balderton-capital and processed by the
+  enrichment pipeline, which confirmed the acquisition/redirect and found no
+  live API artifacts to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/openet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,21 @@ x-backed-by:
 - balderton-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: amdocs
+x-domain-redirect: https://www.amdocs.com/products-services/monetization
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Telecommunications
+- BSS
+- Monetization
+- Charging
+- Policy Management
+- 5G
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,12 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.openet.com/
+  url: https://openet.com/
+- type: Successor
+  name: Amdocs Monetization
+  url: https://www.amdocs.com/products-services/monetization
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1

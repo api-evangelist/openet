@@ -64,6 +64,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/amdocs/
+  name: Amdocs
+  x-relationship: acquired
+  x-evidence: "Openet was acquired by Amdocs in 2020 and its brand and products were absorbed into the Amdocs monetization portfolio; the openet."
 - type: Website
   url: https://openet.com/
 - type: Successor
